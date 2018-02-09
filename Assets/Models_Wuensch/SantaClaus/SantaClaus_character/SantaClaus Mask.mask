@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SantaClaus Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Mesh
+    m_Weight: 1
+  - m_Path: Mesh/SantaMesh
+    m_Weight: 1
+  - m_Path: Mesh/Glasses
+    m_Weight: 1
+  - m_Path: Santa_Reference
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Head_end
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Head_end/Santa_Hat1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Head_end/Santa_Hat1/Santa_Hat2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Head_end/Santa_Hat1/Santa_Hat2/Santa_Hat_end
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_JawRoot
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_JawRoot/Santa_Jaw
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_JawRoot/Santa_Jaw/Santa_Jaw_end
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_JawRoot/Santa_Jaw/Santa_Tongue_roll
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_LeftEye
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_Righteye
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_UpperLidLeft
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_UpperLidRight
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_LowerLidRight
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_Neck/Santa_Head/Santa_Base_Eyes/Santa_LowerLidLeft
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandIndex1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandIndex1/Santa_LeftHandIndex2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandIndex1/Santa_LeftHandIndex2/Santa_LeftHandIndex3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandIndex1/Santa_LeftHandIndex2/Santa_LeftHandIndex3/Santa_LeftHandIndex4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandMiddle1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandMiddle1/Santa_LeftHandMiddle2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandMiddle1/Santa_LeftHandMiddle2/Santa_LeftHandMiddle3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandMiddle1/Santa_LeftHandMiddle2/Santa_LeftHandMiddle3/Santa_LeftHandMiddle4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandRing1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandRing1/Santa_LeftHandRing2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandRing1/Santa_LeftHandRing2/Santa_LeftHandRing3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandRing1/Santa_LeftHandRing2/Santa_LeftHandRing3/Santa_LeftHandRing4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandPinky1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandPinky1/Santa_LeftHandPinky2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandPinky1/Santa_LeftHandPinky2/Santa_LeftHandPinky3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandPinky1/Santa_LeftHandPinky2/Santa_LeftHandPinky3/Santa_LeftHandPinky4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandThumb1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandThumb1/Santa_LeftHandThumb2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandThumb1/Santa_LeftHandThumb2/Santa_LeftHandThumb3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_LeftShoulder/Santa_LeftArm/Santa_LeftForeArm/Santa_LeftHand/Santa_LeftHand_0/Santa_LeftHandThumb1/Santa_LeftHandThumb2/Santa_LeftHandThumb3/Santa_LeftHandThumb4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandIndex1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandIndex1/Santa_RightHandIndex2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandIndex1/Santa_RightHandIndex2/Santa_RightHandIndex3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandIndex1/Santa_RightHandIndex2/Santa_RightHandIndex3/Santa_RightHandIndex4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandMiddle1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandMiddle1/Santa_RightHandMiddle2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandMiddle1/Santa_RightHandMiddle2/Santa_RightHandMiddle3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandMiddle1/Santa_RightHandMiddle2/Santa_RightHandMiddle3/Santa_RightHandMiddle4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandRing1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandRing1/Santa_RightHandRing2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandRing1/Santa_RightHandRing2/Santa_RightHandRing3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandRing1/Santa_RightHandRing2/Santa_RightHandRing3/Santa_RightHandRing4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandPinky1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandPinky1/Santa_RightHandPinky2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandPinky1/Santa_RightHandPinky2/Santa_RightHandPinky3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandPinky1/Santa_RightHandPinky2/Santa_RightHandPinky3/Santa_RightHandPinky4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandThumb1
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandThumb1/Santa_RightHandThumb2
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandThumb1/Santa_RightHandThumb2/Santa_RightHandThumb3
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_Spine/Santa_Spine1/Santa_RightShoulder/Santa_RightArm/Santa_RightForeArm/Santa_RightHand/Santa_RightHand_0/Santa_RightHandThumb1/Santa_RightHandThumb2/Santa_RightHandThumb3/Santa_RightHandThumb4
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_LeftUpLeg
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_LeftUpLeg/Santa_LeftLeg
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_LeftUpLeg/Santa_LeftLeg/Santa_LeftFoot
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_LeftUpLeg/Santa_LeftLeg/Santa_LeftFoot/Santa_LeftToeBase
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_LeftUpLeg/Santa_LeftLeg/Santa_LeftFoot/Santa_LeftToeBase/Santa_LeftToes_end
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_RightUpLeg
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_RightUpLeg/Santa_RightLeg
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_RightUpLeg/Santa_RightLeg/Santa_RightFoot
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_RightUpLeg/Santa_RightLeg/Santa_RightFoot/Santa_RightToeBase
+    m_Weight: 1
+  - m_Path: Santa_Reference/Santa_Hips/Santa_RightUpLeg/Santa_RightLeg/Santa_RightFoot/Santa_RightToeBase/Santa_RightToes_end
+    m_Weight: 1

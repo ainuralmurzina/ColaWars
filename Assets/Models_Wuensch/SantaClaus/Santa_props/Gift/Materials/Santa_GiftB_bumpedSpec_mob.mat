@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Santa_GiftB_bumpedSpec_mob
+  m_Shader: {fileID: 10705, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: b95bb679fab4ec845939e93534bf3c39, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -1}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 44c173f2ee2d309499becb5f0b1fb98e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -1}
+    m_Floats:
+    - _Shininess: 0.08035251
+    m_Colors:
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
