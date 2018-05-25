@@ -178,17 +178,17 @@ public class FieldManager : MonoBehaviour
 		case GameMode.Practice:
 
 			if (player.team == Team.Pepsi)
-				exist = CheckBottles (objBottlesColaOne, tag);
-			else
 				exist = CheckBottles (objBottlesPepsiOne, tag);
+			else
+				exist = CheckBottles (objBottlesColaOne, tag);
 			
 			break;
 		default:
 
 			if (player.team == Team.Pepsi)
-				exist = CheckBottles (objBottlesColaFive, tag);
-			else
 				exist = CheckBottles (objBottlesPepsiFive, tag);
+			else
+				exist = CheckBottles (objBottlesColaFive, tag);
 
 			break;
 		}

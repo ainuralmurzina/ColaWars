@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - right
+  - most_left
+  - most_right
+  - left
+  - GameManager
   layers:
   - Default
   - TransparentFX

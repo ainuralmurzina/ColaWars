@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: Main Camera Blends
   m_EditorClassIdentifier: 
   m_CustomBlends:
-  - m_From: CM vcam1_santa
-    m_To: CM vcam1_start
+  - m_From: vcam_observe_field
+    m_To: vcam_modify_ring
     m_Blend:
       m_Style: 3
       m_Time: 0.5

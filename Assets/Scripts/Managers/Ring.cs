@@ -207,9 +207,7 @@ public class Ring : MonoBehaviour
 		CameraManager.Instance.SetBotCamera(Mathf.Clamp ((180 - rotation1.y) / 90f * 4f, -3f, 3f));
 
 		seq.Append (transform.DORotate(rotation2, 0.5f)).AppendInterval(0.5f);
-		seq.Append (transform.DOMove (position, 0.5f)
-			.OnComplete(() => GameManager.Instance.currentPlayer.santa.transform.GetChild(0).GetComponent<Animator> ().SetTrigger ("Throw")))
-			.AppendInterval (0.5f);
+		seq.Append (transform.DOMove (position, 0.5f)).AppendInterval (0.5f);
 
 
 		seq.OnComplete(() => {
@@ -242,7 +240,6 @@ public class Ring : MonoBehaviour
 		seq.Append (transform.DOMove (position, 0.5f));
 
 		seq.OnComplete(() => {
-			GameManager.Instance.currentPlayer.santa.transform.GetChild(0).GetComponent<Animator> ().SetTrigger ("Throw");
 			Rigidbody rb = transform.GetComponent<Rigidbody>();
 			rb.isKinematic = false;
 			rb.velocity = velocity;

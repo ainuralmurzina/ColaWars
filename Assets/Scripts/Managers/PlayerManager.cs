@@ -68,12 +68,6 @@ public class PlayerManager : MonoBehaviour
 	public float ringPosY = 1f;
 	public float ringPosZ = 12f;
 
-	[Header ("Santa")]
-	public GameObject objSantaRed;
-	public GameObject objSantaBlue;
-
-	public float santaPosZ = 13f;
-
 	[HideInInspector]
 	public float animationTime = 0f;
 
@@ -82,11 +76,9 @@ public class PlayerManager : MonoBehaviour
 		switch (player.team) {
 		case Team.Cola:
 			player.ring = objRingRed;
-			player.santa = objSantaRed;
 			break;
 		case Team.Pepsi:
 			player.ring = objRingBlue;
-			player.santa = objSantaBlue;
 			break;
 		}
 	}
@@ -95,83 +87,25 @@ public class PlayerManager : MonoBehaviour
 		
 		player.currentRow = row;
 
-		if (!player.santa.activeSelf)
-			animate = false;
-
 		switch (player.team) {
 		case Team.Cola:
 			
 			objRingRed.transform.position = new Vector3 (GameManager.Instance.rows [row], ringPosY, -ringPosZ);
+			animationTime = 0f;
 
-			if (!animate) { 
-				animationTime = 0f;
-				objSantaRed.transform.position = new Vector3 (GameManager.Instance.rows [row], 0f, -ringPosZ);
-			}
-			else {
-				Transform santa = objSantaRed.transform;
-
-				//Set rotation vectors
-				Vector3 targetPosition = new Vector3 (GameManager.Instance.rows [row], 0f, -ringPosZ);
-				Vector3 initialRotation = santa.rotation.eulerAngles;
-				Vector3 targetRotation = initialRotation;
-				float difference = santa.position.x - GameManager.Instance.rows [row];
-				targetRotation.y = difference < 0 ? targetRotation.y + 90 : targetRotation.y - 90;
-
-				//Animate
-				animationTime = Mathf.Abs (difference);
-				if (difference != 0f)
-					AnimateSanta (santa, initialRotation, targetRotation, targetPosition);
-			}
 			break;
 		case Team.Pepsi:
 			
 			objRingBlue.transform.position = new Vector3 (GameManager.Instance.rows [row], ringPosY, ringPosZ);
+			animationTime = 0f;
 
-			if (!animate) {
-				animationTime = 0f;
-				objSantaBlue.transform.position = new Vector3 (GameManager.Instance.rows [row], 0f, ringPosZ);
-			}
-			else {
-				Transform santa = objSantaBlue.transform;
-
-				//Set rotation vectors
-				Vector3 targetPosition = new Vector3 (GameManager.Instance.rows [row], 0f, santaPosZ);
-				Vector3 initialRotation = santa.rotation.eulerAngles;
-				Vector3 targetRotation = initialRotation;
-				float difference = santa.position.x - GameManager.Instance.rows [row];
-				targetRotation.y = difference < 0 ? targetRotation.y - 90 : targetRotation.y + 90;
-
-				//Animate
-				animationTime = Mathf.Abs (difference);
-				if (difference != 0f)
-					AnimateSanta (santa, initialRotation, targetRotation, targetPosition);
-			}
 			break;
 		}
-	}
-
-	private void AnimateSanta(Transform santa, Vector3 initialRotation, Vector3 targetRotation, Vector3 targetPosition){
-		Sequence seq = DOTween.Sequence ();
-
-		seq.Append (santa.DORotate (targetRotation, 0.25f));
-		seq.Append (santa.DOMove (targetPosition, animationTime));
-		seq.Append (santa.DORotate (initialRotation, 0.25f));
-
-		seq
-			.OnPlay (() => {
-				if(santa.GetChild (0).GetComponent<Animator> ().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
-					santa.GetChild (0).GetComponent<Animator> ().SetTrigger ("Walk");
-			})
-			.OnComplete (() => {
-				if(santa.GetChild (0).GetComponent<Animator> ().GetCurrentAnimatorStateInfo(0).IsName("Walk"))
-					santa.GetChild (0).GetComponent<Animator> ().SetTrigger ("Walk");
-			});
 	}
 
 	public void SwitchPlayer(Player player, bool showRing = true, bool showSanta = false, float waitTime = 0f){
 		if (waitTime == 0f) {
 			player.ring.GetComponent<MeshRenderer> ().enabled = showRing;
-			player.santa.SetActive (showSanta);
 		}
 		else
 			StartCoroutine (SwitchPlayerCoroutine(player, showRing, showSanta, waitTime));
@@ -181,7 +115,6 @@ public class PlayerManager : MonoBehaviour
 		yield return new WaitForSeconds (waitTime);
 
 		player.ring.GetComponent<MeshRenderer> ().enabled = showRing;
-		player.santa.SetActive (showSanta);
 	}
 
 	public void SetPlayersScore(Score score){

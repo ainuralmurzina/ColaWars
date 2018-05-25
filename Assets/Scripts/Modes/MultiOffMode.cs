@@ -91,7 +91,7 @@ public class MultiOffMode : Mode
 
 			if (bottlesExist)
 				break;
-			else
+			else 
 				GameManager.Instance.SetPlayerToNextRow (currentPlayer);
 		}
 

@@ -21,7 +21,6 @@ public enum Team{
 
 public enum GameState{
 	ObserveField,
-	RotateField,
 	RotateDisk,
 	MoveDisk,
 	Shoot,

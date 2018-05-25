@@ -87,7 +87,7 @@ public class CameraManager : MonoBehaviour
 		if(GameManager.Instance.currentPlayer.team == Team.Cola)
 			rotation = new Vector3 (offset.x, Mathf.Clamp((Input.mousePosition.y / Screen.height) * 10f, 1f, 5f), Mathf.Clamp(((Input.mousePosition.x / Screen.width) - 0.5f) * 10f, -5f, 5f));
 		else 
-			rotation = new Vector3 (offset.x, Mathf.Clamp((Input.mousePosition.y / Screen.height) * 10f, 1f, 5f), Mathf.Clamp(-((Input.mousePosition.x / Screen.width) - 0.5f) * 10f, -5f, 5f));
+			rotation = new Vector3 (Mathf.Clamp(-((Input.mousePosition.x / Screen.width) - 0.5f) * 10f, -5f, 5f), offset.y, offset.z);
 		
 		vcam_santa.GetCinemachineComponent<CinemachineTransposer> ().m_FollowOffset = rotation;
 	}
@@ -148,7 +148,7 @@ public class CameraManager : MonoBehaviour
 
 		//Reset camera
 		Vector3 offset = vcam_santa.GetCinemachineComponent<CinemachineTransposer> ().m_FollowOffset;
-		vcam_santa.GetCinemachineComponent<CinemachineTransposer> ().m_FollowOffset = new Vector3 (offset.x, 2f, 0f);
+		vcam_santa.GetCinemachineComponent<CinemachineTransposer> ().m_FollowOffset = new Vector3 (offset.x, 2f, -2f);
 
 		StartCoroutine (ShowPlayerCoroutine(waitTime, player));
 	}
@@ -166,13 +166,8 @@ public class CameraManager : MonoBehaviour
 			yield return new WaitForSeconds (2f);
 		}	
 
-		vcam_santa.Follow = player.santa.transform;
-		vcam_santa.LookAt = player.santa.transform;
-
-		if(player.team == Team.Cola)
-			player.santa.transform.position = new Vector3 (player.santa.transform.position.x, player.santa.transform.position.y, -PlayerManager.Instance.ringPosZ);
-		else
-			player.santa.transform.position = new Vector3 (player.santa.transform.position.x, player.santa.transform.position.y, PlayerManager.Instance.ringPosZ);
+		vcam_santa.Follow = player.ring.transform;
+		vcam_santa.LookAt = player.ring.transform;
 		
 		vcam_santa.gameObject.SetActive (true);
 		vcam_start.gameObject.SetActive (false);
@@ -183,8 +178,7 @@ public class CameraManager : MonoBehaviour
 		vcam_bottles2.gameObject.SetActive (false);
 
 		float time = 2f;
-		if(GameManager.Instance.currentPlayer != null && 
-			GameManager.Instance.currentPlayer.santa.transform.GetChild(0).GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+		if(GameManager.Instance.currentPlayer != null)
 			time = 2f >= PlayerManager.Instance.animationTime ? 2f : PlayerManager.Instance.animationTime;
 		Invoke ("CameraIsReady", time);
 
@@ -224,11 +218,6 @@ public class CameraManager : MonoBehaviour
 
 		vcam_start.Follow = player.ring.transform;
 		vcam_start.LookAt = enemy.ring.transform;
-
-		if(player.team == Team.Cola)
-			player.santa.transform.position = new Vector3 (player.santa.transform.position.x, player.santa.transform.position.y, -PlayerManager.Instance.santaPosZ);
-		else
-			player.santa.transform.position = new Vector3 (player.santa.transform.position.x, player.santa.transform.position.y, PlayerManager.Instance.santaPosZ);
 
 		vcam_start.gameObject.SetActive (true);
 		vcam_shoot.gameObject.SetActive (false);

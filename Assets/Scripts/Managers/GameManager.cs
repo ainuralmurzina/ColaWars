@@ -262,6 +262,7 @@ public class GameManager : MonoBehaviour
 
 			GameView.Instance.SetColaScore (score.score_cola);
 			GameView.Instance.SetPepsiScore (score.score_pepsi);
+
 			break;
 		}
 
